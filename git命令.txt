@@ -18,4 +18,5 @@ git checkout --@ÎÄ¼þÃû                                        ½«@ÎÄ¼þÃûÉÏÒ»°æ±¾´
 git reset --(soft/mixed/hard) (HEAD~@Êý×Ö / @CommitID  )   »Ø¹ö@Êý×Ö¸ö°æ±¾£¨soft->commitÖ®Ç°   mixed->addÖ®Ç°   hard->»Ø¹öÉÏ@Êý×Ö¸ö°æ±¾£©
                                                                                               @CommitIDÄ³´Î°æ±¾IDºÅ
 git reflog                                                              ÏÔÊ¾Àú´Î°æ±¾ÐÞ¸ÄÐÅÏ¢
-git diff                                                                  ¼ì²é±¾µØÎÄ¼þÓë±¾µØ¿â¼äÎÄ¼þµÄÐÞ¸ÄÄÚÈÝ
+git diff  (--cached  )                                              ¼ì²é±¾µØÎÄ¼þÓë±¾µØ¿â¼äÎÄ¼þµÄÐÞ¸ÄÄÚÈÝ£¨addÇ°ºÍaddºó±È½Ï£¬¼´±¾µØÎÄ¼þÓëÔÝ´æÇø±È½Ï£©
+                                                                            --cached  (addºó Óë ±¾µØ²Ö¿â°æ±¾±È½Ï ¼´ÔÝ´æÇøÓë±¾µØ²Ö¿â±È½Ï)
