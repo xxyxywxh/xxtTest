@@ -15,3 +15,7 @@ git commit -m '@描述'                                         文件提交到本地仓库
 git log                                                                  文件提交日志
 git status                                                              本地仓库当前状态
 git checkout --@文件名                                        将@文件名上一版本从本地仓库签回本地目录（“@文件名”文件回滚到上一次提交的版本）
+git reset --(soft/mixed/hard) (HEAD~@数字 / @CommitID  )   回滚@数字个版本（soft->commit之前   mixed->add之前   hard->回滚上@数字个版本）
+                                                                                              @CommitID某次版本ID号
+git reflog                                                              显示历次版本修改信息
+git diff                                                                  检查本地文件与本地库间文件的修改内容
