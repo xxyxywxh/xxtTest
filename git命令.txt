@@ -30,4 +30,11 @@ git merge @名字                                                  当前分支与@名字
 git push origin master:master                               本地分支master推送至远程分支master
 git clone @网址                                                    远程克隆@网址 文件内容
 
+git stash save -a '@名字'                                       文件暂存到堆栈 @名字 中 （实际上是将文件修改内容暂存在@名字中，同时删除文件修改内容）
+git stash list                                                          查看堆栈中的内容
+git stash pop  stash@{id}                                      将堆栈中的内容取回。
+git stash drop stash@{id}                                      将堆栈中的内容删除
+git stash clear                                                       清除堆栈中所有的内容
+
+
       
