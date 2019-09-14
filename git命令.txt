@@ -25,4 +25,5 @@ git branch   @名字                                                查看工作流分支
                                                                             @名字 新建工作流分支
 git branch -d @名字                                             删除 @名字 分支 
 git checkout @名字                                              切换 @名字 分支 
-git checkout -b @名字                                          创建并切换 @名字 分支         
+git checkout -b @名字                                          创建并切换 @名字 分支  
+git merge @名字                                                  当前分支与@名字分支合并       
