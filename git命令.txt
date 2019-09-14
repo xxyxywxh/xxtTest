@@ -28,6 +28,6 @@ git checkout @名字                                              切换 @名字 分支
 git checkout -b @名字                                          创建并切换 @名字 分支  
 git merge @名字                                                  当前分支与@名字分支合并 
 git push origin master:master                               本地分支master推送至远程分支master
-git clone @名字                                                    远程克隆@分支
+git clone @网址                                                    远程克隆@网址 文件内容
 
       
