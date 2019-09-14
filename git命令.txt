@@ -21,4 +21,8 @@ git reflog                                                              显示历次
 git diff  (--cached  )  /  HEAD                                 检查本地文件与本地库间文件的修改内容（add前和add后比较，即本地文件与暂存区比较）
                                                                             --cached  (add后 与 本地仓库版本比较 即暂存区与本地仓库比较)
                                                                             HEAD  本地文件与某版本文件比较
-            
+git branch   @名字                                                查看工作流分支 
+                                                                            @名字 新建工作流分支
+git branch -d @名字                                             删除 @名字 分支 
+git checkout @名字                                              切换 @名字 分支 
+git checkout -b @名字                                          创建并切换 @名字 分支         
