@@ -35,6 +35,6 @@ git stash list                                                          查看堆栈
 git stash pop  stash@{id}                                      将堆栈中的内容取回。
 git stash drop stash@{id}                                      将堆栈中的内容删除
 git stash clear                                                       清除堆栈中所有的内容
-
+test
 
       
